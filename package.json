@@ -1,0 +1,33 @@
+{
+  "name": "grunt-json-schema-validation",
+  "version": "0.0.1",
+  "description": "Grunt wrapper for validating JSON Schema.",
+  "scripts": {
+    "test": "grunt json_schema_validation"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janechu/grunt-json-schema-validation.git"
+  },
+  "keywords": [
+    "json",
+    "schema",
+    "grunt"
+  ],
+  "author": "Jane Chu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/janechu/grunt-json-schema-validation/issues"
+  },
+  "homepage": "https://github.com/janechu/grunt-json-schema-validation#readme",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-cli": "~0.1.13"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "dependencies": {
+    "jsonschema": "~1.0.0"
+  }
+}
